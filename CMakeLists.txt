@@ -67,6 +67,7 @@ add_definitions(-DSET_TRUSTED_CERT_IN_SAMPLES)
 
 # Hardware-specific examples in subdirectories:
 add_subdirectory(examples)
+add_subdirectory(../../OTAexample ../../../OTAexample/build)
 
 # Add libraries in subdirectories
 add_subdirectory(${CMAKE_SOURCE_DIR}/libraries)
